@@ -1,0 +1,35 @@
+.input {
+  width: 40%;
+  border-radius: 10px;
+  border: 2px solid #0b5ed7;
+  padding: 10px 15px;
+
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+  
+}
+
+.btn {
+  border-radius: 10px;
+  border: 2px solid #0b5ed7;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+
+  padding: 10px 15px;
+}
+.input:hover {
+    -webkit-box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+    -moz-box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+    box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+}
+.btn:hover {
+  -webkit-box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+  -moz-box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+  box-shadow: 14px 20px 29px 3px rgba(97, 127, 186, 1);
+}
+
+@media (max-width: 576px) {
+  .input {
+    width: 80%;
+  }
+}
+

@@ -1,0 +1,30 @@
+.cards {
+  border: 3px solid #0b5ed7;
+  border-radius: 10px;
+  box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.img {
+  border-radius: 6px 6px 0 0;
+}
+.badge {
+  top: 150px;
+  right: 20px;
+}
+.contentn {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+
+}
+.cards:hover {
+  -webkit-box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 32px 8px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
